@@ -8,7 +8,7 @@ export class Users extends Component {
     return (
       <div>
         <ul>
-          {/* stuff should happen around here */}
+          {users}
         </ul>
       </div>
     )
