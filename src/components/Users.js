@@ -22,4 +22,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export const ConnectedUsers = connect(mapStateToProps)(Users) // aren't we supposed to be connecting something around here?
+export const ConnectedUsers = connect(mapStateToProps)(Users) 
