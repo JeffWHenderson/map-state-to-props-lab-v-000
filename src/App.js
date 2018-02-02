@@ -7,7 +7,7 @@ export class App extends Component {
     return (
       <div className="App">
         <UserInput store={this.props.store}/>
-        {/* is there something we could connect to here? */}
+          <ConnectedUsers store={this.props.store}
       </div>
     );
   }
