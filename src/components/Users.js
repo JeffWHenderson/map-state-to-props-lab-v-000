@@ -15,5 +15,11 @@ export class Users extends Component {
   }
 }
 
-export const ConnectedUsers = Users // aren't we supposed to be connecting something around here?
+const mapStateToProps = (state) => {
+  return {
+    users: state.users,
+    primaryUser: state.users[0]
+  }
+}
 
+export const ConnectedUsers = Users // aren't we supposed to be connecting something around here?
